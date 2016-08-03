@@ -1,0 +1,70 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Open+Sans', sans-serif;
+	color:#000000;
+}
+nav {
+	position: absolute;
+}
+nav ul {
+    list-style-type: none;
+    padding-top: 55px;
+    padding-left: 5px;
+	margin-left: 900px;
+	margin-bottom: 45px;
+    float: right;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    white-space: nowrap;
+ }
+ nav ul li {
+    display: inline-block;
+    margin:0px 5px;
+ }
+ a{
+ 	text-decoration: none;
+ 	color:#000000;
+ }
+
+.principal{
+	background-image: url("../img/grupal.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100%;
+    height: 650px;
+    color: #D3D3D3;
+    position:relative;
+}
+.sumate{  
+    background-color: #FCB739;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 7px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 65px 65px;
+    position: absolute;
+ }
+
+.logo{
+	margin-left:360px;
+	margin-top:100px;
+	position: absolute;
+}
+.color-footer{
+	background-color: #323230;
+	height: 80px;
+}
+.texto-footer{
+	color:#FFFFFF;
+	text-align: left;
+	margin: 20px 20px;
+}
